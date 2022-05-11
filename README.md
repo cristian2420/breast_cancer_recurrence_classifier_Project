@@ -2,9 +2,9 @@
 
 Our breast cancer study published on [PNAS](https://www.pnas.org/content/116/38/19200) indicated potential application of SILVER-Seq on breast cancer and identified some promising breast cancer related diagnostic panels, for cancer and recurrence prediction. To develop and further validate the model, we've collected serum samples from PNAS paper and 2 additional sources and processed the samples with SILVER-Seq (as shown below). 
 
-## Project goal
+## Project goals
 
-As stated in the section above, the goal of this project is 
+As stated in the section above, the goals of this project are 
 - 1. Develop the breast cancer classifier model from PNAS paper using the PNAS breast cancer and normal datasets.
 - 2. Develop the breast cancer recurrence classifier model from PNAS paper using the PNAS breast cancer dataset.
 - 3. Validate the above models using the validation datasets.
