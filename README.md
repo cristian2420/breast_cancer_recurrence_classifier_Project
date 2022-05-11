@@ -1,9 +1,6 @@
 # breast_cancer_recurrence_classifier
 
-Our breast cancer study published on [PNAS](https://www.pnas.org/content/116/38/19200) indicated potential application of SILVER-Seq on breast cancer and identified some promising breast cancer related diagnostic panels, for cancer and recurrence prediction. To further validate the model, we've collected serum samples from 2 additional sources and processed the samples with SILVER-Seq (as shown below). 
-
-- Validation breast cancer dataset: A total of 83 breast cancer serum samples provided by Moores Cancer Center were processed to SILVER-Seq libraries and sequenced with successful data generation. The libraries were sequenced on NovaSeq SP100 to generate PE50 + 16 Index 1 reads. These samples were processed and sequenced together with the normal samples
-- Validation normal dataset: A total of 78 normal serum samples provided by San Diego Blood Bank were processed to SILVER-Seq libraries and sequenced with successful data generation. The libraries were sequenced on NovaSeq SP100 to generate PE50 + 16 Index 1 reads. These samples were processed and sequenced together with breast cancer samples
+Our breast cancer study published on [PNAS](https://www.pnas.org/content/116/38/19200) indicated potential application of SILVER-Seq on breast cancer and identified some promising breast cancer related diagnostic panels, for cancer and recurrence prediction. To develop and further validate the model, we've collected serum samples from PNAS paper and 2 additional sources and processed the samples with SILVER-Seq (as shown below). 
 
 ## Project goal
 
