@@ -2,8 +2,8 @@
 
 Our breast cancer study published on [PNAS](https://www.pnas.org/content/116/38/19200) indicated potential application of SILVER-Seq on breast cancer and identified some promising breast cancer related diagnostic panels, for cancer and recurrence prediction. To further validate the model, we've collected serum samples from 2 additional sources and processed the samples with SILVER-Seq (as shown below). 
 
-- Moores Cancer Center (MCC): A total of 83 breast cancer serum samples provided by Moores Cancer Center were processed to SILVER-Seq libraries and sequenced with successful data generation. The libraries were sequenced on NovaSeq SP100 to generate PE50 + 16 Index 1 reads. These MCC samples were processed and sequenced together with SDBB samples
-- San Diego Blood Bank (SDBB): A total of 78 normal serum samples provided by San Diego Blood Bank were processed to SILVER-Seq libraries and sequenced with successful data generation. The libraries were sequenced on NovaSeq SP100 to generate PE50 + 16 Index 1 reads. These SDBB samples were processed and sequenced together with MCC samples
+- Validation breast cancer dataset: A total of 83 breast cancer serum samples provided by Moores Cancer Center were processed to SILVER-Seq libraries and sequenced with successful data generation. The libraries were sequenced on NovaSeq SP100 to generate PE50 + 16 Index 1 reads. These samples were processed and sequenced together with the normal samples
+- Validation normal dataset: A total of 78 normal serum samples provided by San Diego Blood Bank were processed to SILVER-Seq libraries and sequenced with successful data generation. The libraries were sequenced on NovaSeq SP100 to generate PE50 + 16 Index 1 reads. These samples were processed and sequenced together with breast cancer samples
 
 ## Project goal
 
@@ -25,7 +25,7 @@ As stated in the section above, the goal of this project is
 - pnas_normal_tpm.txt: Exon level TPM for all 32 normal samples in PNAS paper.
 - pnas_normal_readcounts.txt: Exon level reads counts for all 32 normal samples in PNAS paper.
 
-## MCC and SDBB Samples and Data
+## Validation Samples and Data
 ### Raw Data
 #### Concepts
 - Mapping ID (e.g. BCSC_S5_01): A unique ID given to data for each sample to connect data with metainfo of the corresponding sample
