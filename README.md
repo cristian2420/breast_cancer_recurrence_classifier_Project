@@ -7,7 +7,7 @@ Our breast cancer study published on [PNAS](https://www.pnas.org/content/116/38/
 As stated in the section above, the goals of this project are 
 - 1. Develop the breast cancer classifier model from PNAS paper using the PNAS breast cancer and normal datasets.
 - 2. Develop the breast cancer recurrence classifier model from PNAS paper using the PNAS breast cancer dataset.
-- 3. Validate the above models using the validation datasets.
+- 3. (Optional) Try to apply the above models to the "validation" datasets. (Note: we do not expect a high performance of most models in the "validation" datasets.) 
 
 ## PNAS Samples and Data
 ### Raw Data
