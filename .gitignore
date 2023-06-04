@@ -1,1 +1,4 @@
 data/inputfiles
+results/models
+results/reduction
+.DS_Store
