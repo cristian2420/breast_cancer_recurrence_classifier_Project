@@ -31,6 +31,7 @@ res <- results(dds)
 res$gene <- rownames(res)
 res <- data.table::as.data.table(res)
 
+write.csv(res_r, "DEgenes_table.csv")
 writeLines(res[abs(log2FoldChange) > 2]$gene, "DEgenes.txt")
 ##### differential express genes recurrent cancer vs non recurrent cancer
 recurrent_cancer <- all_donors[, c(1, 34:ncol(all_donors)), with = F]
@@ -45,6 +46,7 @@ dds_r <- DESeq(dds_r)
 res_r <- results(dds_r)
 res_r$gene <- rownames(res_r)
 res_r <- data.table::as.data.table(res_r)
+write.csv(res_r, "DEgenes_recurrent_table.csv")
 writeLines(res_r[abs(log2FoldChange) > 3]$gene, "DEgenes_recurrent.txt")
 #####
 # add gene annotation
